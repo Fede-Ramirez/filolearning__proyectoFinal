@@ -1,0 +1,673 @@
+// Media querie mobile
+
+@media (max-width: 768px){
+
+//Estilos generales
+
+nav{
+	div{
+		.tipografiaLogo{
+			font-size: 25px;
+		}
+		.logo__nombre{
+			font-size: 25px;
+		}
+	}
+}
+
+// Estilo INDEX
+
+nav{
+	background-color:#ffffcc;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+footer{
+	background-color:#ffffcc;
+	grid-area: footer;
+	display: grid;
+	grid-template-areas:
+	"contacto" 
+	"redes"
+	"logo__filolearning"
+	"copyright";
+	grid-template-columns: 100%;
+	grid-template-rows: auto auto auto auto;
+}
+
+.contacto__texto{
+	font-size: 15px;
+	text-align: center;
+	margin-top: 15px;
+}
+
+.contacto__mail{
+	font-size: 15px;
+	display: flex;
+	flex-direction: row;
+}
+
+.mailDireccion{
+	font-size: 13px;
+	font-weight: bold;
+	color: black;
+}
+
+.contacto__whatsapp{
+	display: flex;
+	flex-direction: row;
+}
+
+.whatsappLogo{
+	width: 32px;
+	height: 36px;
+}
+
+.whatsapp{
+	margin: 5px 0px 5px 0px;
+	padding: 5px;
+	font-size: 13px;
+	font-weight: bold;
+	color: black;
+}
+
+.redes__texto{
+	font-size: 15px;
+	text-align: right;
+	margin: 15px 10px 15px  0px;
+}
+
+.copyright{
+	grid-area: copyright;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.copyright__texto{
+	font-size: 12px;
+	text-transform: capitalize;
+	margin-left: 25px;
+}
+
+.iconos__edicion{
+	margin: 0px;
+	width: 100px;
+	height: 100px;
+}
+
+.icono__palabra{
+	margin-bottom: 50px;
+}
+
+.icono__texto{
+	display: none;
+}
+
+.main__section1{
+	background-image:url("../assets/img/foco_idea.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 325px;
+	grid-area: main__section1;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.section1__h1{
+	color: beige;
+	font-size: 35px;
+	text-shadow: 1px 2px 1px ghostwhite;
+}
+
+.section2__iconos{
+	display: grid;
+	grid-template-areas:
+	"economico seguimiento"
+	"flexibilidad adaptabilidad";
+	grid-template-columns: 50% 50%;
+	grid-template-rows: auto auto;
+	justify-items: center; 
+}
+
+.main__section3{
+	background-image: url("../assets/img/cuaderno.jpg");
+	width: 100%;
+	height: 300px;
+	background-position: top;
+	background-repeat: no-repeat;
+	background-size: cover;
+	grid-area: main__section3;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.section3__frase{
+	color: snow;
+	text-align: center;
+	font-size: 30px;
+	font-weight: bold;
+	margin-top: 50px ;
+	text-shadow: 1px 2px 1px black;
+}
+
+// Estilo ACERCA DE MÍ
+
+main{
+	section{
+		div{
+			.edicionEncabezados{
+	        padding: 0px 0px 10px 0px;
+	        margin-top: 20px;
+	        color: #2e2e1f;
+	        font-family: "libre baskerville", serif;
+	        text-align: center;
+            }
+		}
+	}
+} 
+
+// Estilo SERVICIOS
+
+@mixin imagenes-mobile{
+	width: 100%;
+	height:300px;
+}
+
+main{
+	section{
+		div{
+			div{
+				.imagenesMobile{
+                    @include imagenes-mobile;
+				}
+			}
+		}
+	}
+}
+
+// Estilo footer
+
+footer{
+	.footer__sections{
+		div{
+			.contacto__texto{
+				font-size: 15px;
+	            font-weight: bold;
+	            text-align: center;
+	            margin-top: 15px;
+			}
+			.redes__texto{
+				font-size: 15px;
+	            font-weight: bold;
+	            text-align: right;
+	            margin: 15px 10px 15px 0px;
+			}
+			.copyright__texto{
+				font-size: 12px;
+	            text-transform: capitalize;
+	            margin-left: 25px;
+			}
+		}
+		a{
+			.tipografiaLogo{
+				font-size: 25px;
+			}
+			.logo__nombre{
+				font-size: 25px;
+			}
+		}
+	}
+	.contacto__whatsapp{
+		display: flex;
+		flex-direction: row;
+		.whatsappLogo{
+			width: 32px !important;
+			height: 32px !important;
+		}
+		.whatsapp{
+			margin-top: 5px;
+	        padding: 5px;
+	        font-size: 13px;
+	        font-weight: bold;
+	        color: black;
+		}
+	}
+}
+}
+
+// Media querie md
+
+@media (min-width:769px) and (max-width: 991px){
+
+// Estilos generales
+
+nav {
+	div{
+		.tipografiaLogo{
+			font-size: 35px;
+		}
+		div{
+			ul{
+				li{
+					padding: 20px;
+				}
+			}
+		}
+		
+	}
+}
+
+// Estilo INDEX
+
+@mixin background-images-desktopstyles{
+	width: 100%;
+	height: 650px;
+}
+
+main{
+	section{
+		.indexImg1{
+           background-image:url("../assets/img/foco_idea.jpg");
+	       background-position: center;
+	       background-repeat: no-repeat;
+	       background-size: cover;
+	       @include background-images-desktopstyles;
+	       .section1__h1{
+	       	   color: beige;
+	           font-size: 95px;
+	           text-shadow: 1px 2px 1px 2px ghostwhite;
+	           text-align: center;
+	       }       
+		}
+		div{
+			.section2__texto{
+				font-size: 30px;
+			}
+			.iconos__edicion{
+				margin: 50px 10px 20px 10px;
+	            width: 150px;
+	            height: 150px;
+			}
+			.icono__palabra{
+				font-size: 18px;
+	            font-weight: bold;
+			}
+			.icono__texto{
+				font-size: 15px;
+				text-align: center;
+			}
+			.section3__frase{
+				color: snow;
+	            text-align: center;
+	            font-size: 45px;
+	            font-weight: bold;
+	            margin-top: 50px;
+	            text-shadow: 1px 2px 1px black;
+			}
+		}
+		.indexImg2{
+			background-image: url("../assets/img/cuaderno.jpg");
+	        background-position: top;
+	        background-repeat: no-repeat;
+	        background-size: cover;
+	        @include background-images-desktopstyles;
+		}
+	}
+}
+
+// Estilo ACERCA DE MÍ
+
+main{
+	section{
+		div{
+			.edicionEncabezados{
+	            padding: 0px 0px 10px 0px;
+	            margin: 20px 10px 20px 0px ;
+	            color: #2e2e1f;
+	            font-size: 25px;
+	            font-family: "libre baskerville", serif;
+	            font-weight: bold;
+	            text-align: left;
+            }            
+		}
+	}
+}
+
+// Estilo SERVICIOS
+
+@mixin imagenes-mdscreen{
+	width: 100%;
+	height: 300px;
+}
+
+main{
+	section{
+		div{
+			div{
+				.card-img-top{
+					@include imagenes-mdscreen;
+				}
+				div{
+					.iframes{
+						display: flex;
+						flex-direction: row;
+					}
+				}
+			}
+		}
+	}
+}
+
+// Estilo footer
+
+footer{
+	div{
+		div{
+			.contacto__texto{
+				font-size: 20px;
+	            text-align: center;
+	            font-weight: bold;
+			}
+			.redes__texto{
+				font-size: 20px;
+	            text-align: center;
+	            margin-bottom: 27px;
+	            font-weight: bold;
+			}
+			.copyright__texto{
+				font-size: 12px;
+	            text-transform: capitalize;
+	            margin-left: 60px;
+			}
+		}
+		a{
+			.tipografiaLogo{
+				font-size: 35px;
+			}
+		}
+		.contacto__whatsapp{
+			position: fixed;
+	        left: 1220px;
+	        bottom: 20px;
+	        .whatsapp{
+	        	display: none;
+	        }
+		}
+		.contacto__mail{
+			.mailDireccion{
+				padding: 20px 0px;
+	            font-size: 12px;
+	            font-weight: bold;
+	            color: black;
+			}
+		}
+	}
+}
+
+// Estilo footer
+
+.footerDesktop{
+	display: flex;
+	flex-direction: row-reverse;
+}
+}
+
+// Media querie desktop
+
+@media (min-width: 992px){
+
+// Estilos generales
+
+nav {
+	div{
+		.tipografiaLogo{
+			font-size: 40px;
+		}
+		div{
+			ul{
+				li{
+					padding: 20px;
+				}
+			}
+		}
+		
+	}
+}
+
+// Estilo INDEX
+
+ nav{
+	background-color:#ffffcc;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+footer{
+	background-color:#ffffcc;
+	grid-area: footer;
+	display: grid;
+	grid-template-areas:
+	"logo__filolearning redes contacto"
+	"copyright copyright copyright";
+	grid-template-columns: 33% 33% 33%;
+	grid-template-rows: auto auto;
+}
+
+.contacto{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+}
+
+.contacto__texto{
+	font-size: 20px;
+	text-align: center;
+}
+
+.contacto__mail{
+	font-size: 15px;
+	display: flex;
+	flex-direction: row;
+}
+
+.contacto__whatsapp{
+	position: fixed;
+	bottom: 20px;
+	right: 0;
+}
+
+.whatsapp{
+	display: none;
+}
+
+.redes{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+}
+
+.redes__texto{
+	font-size: 20px;
+	text-align: right;
+	margin: 0px 10px 0px  0px;
+}
+
+.copyright{
+	grid-area: copyright;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin: 20px 0px;
+}
+
+.copyright__texto{
+	font-size: 12px;
+	text-transform: capitalize;
+	margin-left: 60px;
+}
+
+.iconos__edicion{
+	margin: 50px 10px 0px 10px;
+}
+
+.icono__palabra{
+	margin-left: 30px;
+	padding: 0px 5px 0px 5px;
+	font-size: 16px;
+}
+
+.main__section1{
+	background-image:url("../assets/img/foco_idea.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 600px;
+	grid-area: main__section1;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.section1__h1{
+	color: beige;
+	font-size: 80px;
+	text-shadow: 1px 2px 1px 2px ghostwhite;
+}
+
+.section2__iconos{
+	display: grid;
+	grid-template-areas: 
+	"economico seguimiento flexibilidad adaptabilidad";
+	grid-template-columns: 25% 25% 25% 25%;
+	grid-template-rows: auto;
+	justify-items: center;
+}
+
+.icono__texto{
+	margin-left: 5px;
+}
+
+.main__section3{
+	background-image: url("../assets/img/cuaderno.jpg");
+	width: 100%;
+	height: 700px;
+	background-position: top;
+	background-repeat: no-repeat;
+	background-size: cover;
+	grid-area: main__section3;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.section3__frase{
+	color: snow;
+	text-align: center;
+	font-size: 50px;
+	font-weight: bold;
+	margin-top: 50px;
+	text-shadow: 1px 2px 1px black;
+}
+
+// Estilo ACERCA DE MÍ
+
+main{
+	section{
+		div{
+			.edicionEncabezados{
+	            padding: 0px 0px 10px 0px;
+	            margin: 20px 10px 20px 0px ;
+	            color: #2e2e1f;
+	            font-size: 30px;
+	            font-family: "libre baskerville", serif;
+	            font-weight: bold;
+	            text-align: left;
+            }            
+		}
+	}
+}
+
+// Estilo SERVICIOS
+
+main{
+	section{
+		div{
+			div{
+				.imagenDesktop{
+					width: 100%;
+					height: 300px;
+				}
+				div{
+					.iframes{
+						display: flex;
+						flex-direction: row;
+					}
+				}
+			}
+		}
+	}
+}
+
+// Estilo footer
+
+footer{
+	div{
+		div{
+			.contacto__texto{
+				font-size: 20px;
+	            text-align: center;
+	            font-weight: bold;
+			}
+			.redes__texto{
+				font-size: 20px;
+	            text-align: center;
+	            margin-bottom: 27px;
+	            font-weight: bold;
+			}
+			.copyright__texto{
+				font-size: 12px;
+	            text-transform: capitalize;
+	            margin-left: 60px;
+			}
+		}
+		a{
+			.tipografiaLogo{
+				font-size: 40px;
+			}
+		}
+		.contacto__whatsapp{
+			position: fixed;
+	        right: 0px;
+	        bottom: 20px;
+	        .whatsapp{
+	        	display: none;
+	        }
+		}
+		.contacto__mail{
+			.mailDireccion{
+				padding: 20px 0px;
+	            font-size: 15px;
+	            font-weight: bold;
+	            color: black;
+			}
+		}
+	}
+}
+
+// Estilo footer
+
+.footerDesktop{
+	display: flex;
+	flex-direction: row-reverse;
+}
+}

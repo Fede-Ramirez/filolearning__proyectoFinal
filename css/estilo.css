@@ -1,0 +1,698 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+* {
+  font-family: "libre baskerville", serif; }
+
+h1 {
+  font-weight: bold;
+  font-size: 40px;
+  margin: 0px 20px 20px 20px; }
+
+a {
+  text-decoration: none; }
+
+a:hover {
+  text-decoration: underline; }
+
+li {
+  margin: 10px;
+  border-radius: 5px; }
+
+.border-danger {
+  border-color: brown !important; }
+
+.navbar-brand:hover {
+  text-decoration: none; }
+
+.nav-link {
+  font-size: 15px; }
+
+.centrar {
+  text-align: center; }
+
+.views__background {
+  background-color: #FDFCE5; }
+
+header {
+  background-color: #ffffcc; }
+  header div nav div .tipografiaLogo {
+    font-family: "cormorant upright", serif;
+    font-style: italic;
+    font-weight: bold; }
+    header div nav div .tipografiaLogo .logo__nombre {
+      color: crimson;
+      font-family: "cormorant upright", serif; }
+  header div nav div div ul li .nav__anchor {
+    color: white !important;
+    font-weight: bold; }
+  header div nav div div ul li .views {
+    font-weight: bold; }
+
+.contenedor__padre {
+  display: grid;
+  grid-template-areas: "header" "main" "footer";
+  grid-template-columns: 100%;
+  grid-template-rows: auto auto auto; }
+
+header {
+  grid-area: header; }
+
+main {
+  grid-area: main; }
+
+li {
+  margin: 10px;
+  padding: 0.5rem;
+  border-radius: 5px; }
+
+a {
+  color: blue;
+  text-decoration: none; }
+
+a:hover {
+  color: black; }
+
+.header__nav {
+  border-top: 4px solid brown;
+  border-bottom: 4px solid brown;
+  padding: 20px 20px 20px 0px;
+  margin-right: 30px; }
+
+.nav__item {
+  display: inline; }
+
+.nav__anchor {
+  color: lightslategrey;
+  text-transform: uppercase;
+  font-weight: bold; }
+
+h1 {
+  font-weight: bold;
+  font-size: 50px;
+  margin: 0px 20px 20px 20px; }
+
+.centrar {
+  text-align: center; }
+
+.mainTexto {
+  margin: 20px;
+  font-size: 18px; }
+
+h4 {
+  font-weight: bold;
+  font-size: 17px; }
+
+.logo__filolearning {
+  grid-area: logo__filolearning;
+  display: flex;
+  flex-direction: column; }
+
+.tipografiaLogo {
+  font-family: "cormorant upright", Serif;
+  font-weight: bold;
+  font-size: 40px;
+  font-style: italic;
+  color: black; }
+
+.logo__anchor {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end; }
+
+.logo__nombre {
+  color: crimson;
+  font-family: "cormorant upright", Serif;
+  font-weight: bold;
+  font-size: 40px;
+  font-style: italic; }
+
+.main {
+  background-color: #f2f2f2;
+  display: grid;
+  grid-template-areas: "main__section1" "main__section2" "main__section3";
+  grid-template-columns: 100%;
+  grid-template-rows: auto auto auto; }
+
+.section1__h1 {
+  text-align: center; }
+
+.main__section2 {
+  grid-area: main__section2;
+  margin-bottom: 75px; }
+
+.section2__texto {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  margin: 100px 0px 100px 0px; }
+
+.section2__pregunta {
+  text-align: center;
+  font-family: "libre baskerville", serif;
+  font-weight: bold;
+  font-size: 25px;
+  margin: 0px 0px 50px 0px; }
+
+.economico {
+  grid-area: economico; }
+
+.seguimiento {
+  grid-area: seguimiento; }
+
+.flexibilidad {
+  grid-area: flexibilidad; }
+
+.adaptabilidad {
+  grid-area: adaptabilidad; }
+
+.contacto {
+  grid-area: contacto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+.redes {
+  grid-area: redes;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+.redes__iconos {
+  transform: scale(1.1, 1.1); }
+
+.redes__facebook {
+  padding: 0px 15px 0px 15px; }
+
+.redes__instagram {
+  padding: 0px 15px 0px 15px; }
+
+.redes__linkedin {
+  padding: 0px 15px 0px 15px; }
+
+.mailLogonative {
+  padding: 15px 0px;
+  height: 32px; }
+
+.mailDireccion {
+  padding: 20px 0px; }
+
+main section div .main__imagen {
+  margin-bottom: 50px; }
+
+main section div .edicionParrafos {
+  line-height: 1.6;
+  font-size: 18px;
+  text-align: justify;
+  margin: 0px 10px 0px 10px; }
+
+main section div .edicionFrase {
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold; }
+
+main section .oracionFinal {
+  border-color: black;
+  border-style: solid;
+  border-width: 2px 0px 2px 0px;
+  background-image: linear-gradient(to top, #fee3f3, #fee4f4, #fee6f6, #ffe7f7, #ffe8f8, #fbeafb, #f7edfe, #f3efff, #ecf4ff, #e6f8ff, #e3fcff, #e5fffd); }
+
+main .parrafos {
+  margin-bottom: 30px; }
+
+main section div .edicionMapas {
+  border-color: black;
+  border-style: solid;
+  border-width: 2px;
+  width: 100%;
+  height: 150px;
+  margin: 10px 0px; }
+
+main section div .pagos__encabezado {
+  text-align: center;
+  font-family: "libre baskerville", serif;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 75px 75px 0px 75px; }
+
+main section div div div .edicionEncabezados {
+  font-weight: bold;
+  text-align: center; }
+
+main .iconos {
+  margin-bottom: 50px; }
+
+main section div .main__encabezados {
+  text-align: center;
+  font-family: "libre baskerville", serif;
+  font-size: 30px;
+  font-weight: bold;
+  margin: 50px 0px 50px 0px; }
+
+main section div .mainTexto {
+  margin-top: 50px;
+  font-size: 20px;
+  text-align: center; }
+
+main section .cardArea {
+  margin-bottom: 30px; }
+  main section .cardArea div .imagenesAsignaturas {
+    width: 100%;
+    height: 185px;
+    border-width: 2px; }
+  main section .cardArea div div .nombreAsignaturas {
+    font-weight: bold;
+    font-family: "libre baskerville", serif;
+    text-align: center;
+    font-size: 15px; }
+
+main section div .contacto__oracion {
+  margin-top: 50px;
+  font-size: 20px;
+  text-align: center; }
+
+main form {
+  padding: 75px; }
+  main form .formulario__bg {
+    background-color: beige; }
+  main form section div .form-label {
+    font-size: 20px;
+    font-weight: bold;
+    color: black; }
+  main form section div .areaLabel {
+    margin-top: 15px; }
+  main form section div .btn-primary, main form section div .boton--enviar, main form section div .boton--restablecer {
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    border-radius: 20px;
+    margin: 50px 0px; }
+  main form section div .boton--enviar {
+    background-color: lightblue; }
+  main form section div .boton--restablecer {
+    background-color: lightcyan; }
+
+footer {
+  background-color: #ffffcc; }
+  footer .footer__sections {
+    margin: 10px 0px; }
+    footer .footer__sections a .tipografiaLogo {
+      font-family: "cormorant upright", serif;
+      font-style: italic;
+      font-weight: bold;
+      color: black; }
+      footer .footer__sections a .tipografiaLogo .logo__nombre {
+        color: crimson;
+        font-family: "cormorant upright", serif; }
+    footer .footer__sections a .logoEmailbootstrap {
+      height: 32px;
+      width: 32px;
+      margin-top: 10px; }
+    footer .footer__sections .redes__iconos {
+      transform: scale(1.1, 1.1); }
+      footer .footer__sections .redes__iconos a .redes__facebook {
+        padding: 0px 15px 0px 15px; }
+      footer .footer__sections .redes__iconos a .redes__instagram {
+        padding: 0px 15px 0px 15px; }
+      footer .footer__sections .redes__iconos a .redes__linkedin {
+        padding: 0px 15px 0px 15px; }
+    footer .footer__sections .copyright__texto {
+      text-transform: capitalize;
+      font-size: 13px; }
+
+@media (max-width: 768px) {
+  nav div .tipografiaLogo {
+    font-size: 25px; }
+  nav div .logo__nombre {
+    font-size: 25px; }
+  nav {
+    background-color: #ffffcc;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+  footer {
+    background-color: #ffffcc;
+    grid-area: footer;
+    display: grid;
+    grid-template-areas: "contacto"  "redes" "logo__filolearning" "copyright";
+    grid-template-columns: 100%;
+    grid-template-rows: auto auto auto auto; }
+  .contacto__texto {
+    font-size: 15px;
+    text-align: center;
+    margin-top: 15px; }
+  .contacto__mail {
+    font-size: 15px;
+    display: flex;
+    flex-direction: row; }
+  .mailDireccion {
+    font-size: 13px;
+    font-weight: bold;
+    color: black; }
+  .contacto__whatsapp {
+    display: flex;
+    flex-direction: row; }
+  .whatsappLogo {
+    width: 32px;
+    height: 36px; }
+  .whatsapp {
+    margin: 5px 0px 5px 0px;
+    padding: 5px;
+    font-size: 13px;
+    font-weight: bold;
+    color: black; }
+  .redes__texto {
+    font-size: 15px;
+    text-align: right;
+    margin: 15px 10px 15px  0px; }
+  .copyright {
+    grid-area: copyright;
+    display: flex;
+    flex-direction: row;
+    justify-content: center; }
+  .copyright__texto {
+    font-size: 12px;
+    text-transform: capitalize;
+    margin-left: 25px; }
+  .iconos__edicion {
+    margin: 0px;
+    width: 100px;
+    height: 100px; }
+  .icono__palabra {
+    margin-bottom: 50px; }
+  .icono__texto {
+    display: none; }
+  .main__section1 {
+    background-image: url("../assets/img/foco_idea.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 325px;
+    grid-area: main__section1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+  .section1__h1 {
+    color: beige;
+    font-size: 35px;
+    text-shadow: 1px 2px 1px ghostwhite; }
+  .section2__iconos {
+    display: grid;
+    grid-template-areas: "economico seguimiento" "flexibilidad adaptabilidad";
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto auto;
+    justify-items: center; }
+  .main__section3 {
+    background-image: url("../assets/img/cuaderno.jpg");
+    width: 100%;
+    height: 300px;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-area: main__section3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+  .section3__frase {
+    color: snow;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 50px;
+    text-shadow: 1px 2px 1px black; }
+  main section div .edicionEncabezados {
+    padding: 0px 0px 10px 0px;
+    margin-top: 20px;
+    color: #2e2e1f;
+    font-family: "libre baskerville", serif;
+    text-align: center; }
+  main section div div .imagenesMobile {
+    width: 100%;
+    height: 300px; }
+  footer .footer__sections div .contacto__texto {
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 15px; }
+  footer .footer__sections div .redes__texto {
+    font-size: 15px;
+    font-weight: bold;
+    text-align: right;
+    margin: 15px 10px 15px 0px; }
+  footer .footer__sections div .copyright__texto {
+    font-size: 12px;
+    text-transform: capitalize;
+    margin-left: 25px; }
+  footer .footer__sections a .tipografiaLogo {
+    font-size: 25px; }
+  footer .footer__sections a .logo__nombre {
+    font-size: 25px; }
+  footer .contacto__whatsapp {
+    display: flex;
+    flex-direction: row; }
+    footer .contacto__whatsapp .whatsappLogo {
+      width: 32px !important;
+      height: 32px !important; }
+    footer .contacto__whatsapp .whatsapp {
+      margin-top: 5px;
+      padding: 5px;
+      font-size: 13px;
+      font-weight: bold;
+      color: black; } }
+
+@media (min-width: 769px) and (max-width: 991px) {
+  nav div .tipografiaLogo {
+    font-size: 35px; }
+  nav div div ul li {
+    padding: 20px; }
+  main section .indexImg1 {
+    background-image: url("../assets/img/foco_idea.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 650px; }
+    main section .indexImg1 .section1__h1 {
+      color: beige;
+      font-size: 95px;
+      text-shadow: 1px 2px 1px 2px ghostwhite;
+      text-align: center; }
+  main section div .section2__texto {
+    font-size: 30px; }
+  main section div .iconos__edicion {
+    margin: 50px 10px 20px 10px;
+    width: 150px;
+    height: 150px; }
+  main section div .icono__palabra {
+    font-size: 18px;
+    font-weight: bold; }
+  main section div .icono__texto {
+    font-size: 15px;
+    text-align: center; }
+  main section div .section3__frase {
+    color: snow;
+    text-align: center;
+    font-size: 45px;
+    font-weight: bold;
+    margin-top: 50px;
+    text-shadow: 1px 2px 1px black; }
+  main section .indexImg2 {
+    background-image: url("../assets/img/cuaderno.jpg");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 650px; }
+  main section div .edicionEncabezados {
+    padding: 0px 0px 10px 0px;
+    margin: 20px 10px 20px 0px;
+    color: #2e2e1f;
+    font-size: 25px;
+    font-family: "libre baskerville", serif;
+    font-weight: bold;
+    text-align: left; }
+  main section div div .card-img-top {
+    width: 100%;
+    height: 300px; }
+  main section div div div .iframes {
+    display: flex;
+    flex-direction: row; }
+  footer div div .contacto__texto {
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold; }
+  footer div div .redes__texto {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 27px;
+    font-weight: bold; }
+  footer div div .copyright__texto {
+    font-size: 12px;
+    text-transform: capitalize;
+    margin-left: 60px; }
+  footer div a .tipografiaLogo {
+    font-size: 35px; }
+  footer div .contacto__whatsapp {
+    position: fixed;
+    left: 1220px;
+    bottom: 20px; }
+    footer div .contacto__whatsapp .whatsapp {
+      display: none; }
+  footer div .contacto__mail .mailDireccion {
+    padding: 20px 0px;
+    font-size: 12px;
+    font-weight: bold;
+    color: black; }
+  .footerDesktop {
+    display: flex;
+    flex-direction: row-reverse; } }
+
+@media (min-width: 992px) {
+  nav div .tipografiaLogo {
+    font-size: 40px; }
+  nav div div ul li {
+    padding: 20px; }
+  nav {
+    background-color: #ffffcc;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center; }
+  footer {
+    background-color: #ffffcc;
+    grid-area: footer;
+    display: grid;
+    grid-template-areas: "logo__filolearning redes contacto" "copyright copyright copyright";
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: auto auto; }
+  .contacto {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end; }
+  .contacto__texto {
+    font-size: 20px;
+    text-align: center; }
+  .contacto__mail {
+    font-size: 15px;
+    display: flex;
+    flex-direction: row; }
+  .contacto__whatsapp {
+    position: fixed;
+    bottom: 20px;
+    right: 0; }
+  .whatsapp {
+    display: none; }
+  .redes {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end; }
+  .redes__texto {
+    font-size: 20px;
+    text-align: right;
+    margin: 0px 10px 0px  0px; }
+  .copyright {
+    grid-area: copyright;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 20px 0px; }
+  .copyright__texto {
+    font-size: 12px;
+    text-transform: capitalize;
+    margin-left: 60px; }
+  .iconos__edicion {
+    margin: 50px 10px 0px 10px; }
+  .icono__palabra {
+    margin-left: 30px;
+    padding: 0px 5px 0px 5px;
+    font-size: 16px; }
+  .main__section1 {
+    background-image: url("../assets/img/foco_idea.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    grid-area: main__section1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+  .section1__h1 {
+    color: beige;
+    font-size: 80px;
+    text-shadow: 1px 2px 1px 2px ghostwhite; }
+  .section2__iconos {
+    display: grid;
+    grid-template-areas: "economico seguimiento flexibilidad adaptabilidad";
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: auto;
+    justify-items: center; }
+  .icono__texto {
+    margin-left: 5px; }
+  .main__section3 {
+    background-image: url("../assets/img/cuaderno.jpg");
+    width: 100%;
+    height: 700px;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-area: main__section3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+  .section3__frase {
+    color: snow;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 50px;
+    text-shadow: 1px 2px 1px black; }
+  main section div .edicionEncabezados {
+    padding: 0px 0px 10px 0px;
+    margin: 20px 10px 20px 0px;
+    color: #2e2e1f;
+    font-size: 30px;
+    font-family: "libre baskerville", serif;
+    font-weight: bold;
+    text-align: left; }
+  main section div div .imagenDesktop {
+    width: 100%;
+    height: 300px; }
+  main section div div div .iframes {
+    display: flex;
+    flex-direction: row; }
+  footer div div .contacto__texto {
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold; }
+  footer div div .redes__texto {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 27px;
+    font-weight: bold; }
+  footer div div .copyright__texto {
+    font-size: 12px;
+    text-transform: capitalize;
+    margin-left: 60px; }
+  footer div a .tipografiaLogo {
+    font-size: 40px; }
+  footer div .contacto__whatsapp {
+    position: fixed;
+    right: 0px;
+    bottom: 20px; }
+    footer div .contacto__whatsapp .whatsapp {
+      display: none; }
+  footer div .contacto__mail .mailDireccion {
+    padding: 20px 0px;
+    font-size: 15px;
+    font-weight: bold;
+    color: black; }
+  .footerDesktop {
+    display: flex;
+    flex-direction: row-reverse; } }

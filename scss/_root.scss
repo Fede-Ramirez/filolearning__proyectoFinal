@@ -1,0 +1,49 @@
+// Estilos generales
+
+*{
+	margin:0;
+	padding: 0;
+}
+
+*{
+	font-family: $generalFont;
+}
+
+h1{
+	font-weight: bold;
+	font-size: 40px;
+	margin: 0px 20px 20px 20px;
+}
+
+a{
+	text-decoration: none;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+li{
+	margin: 10px;
+	border-radius: 5px;
+}
+
+.border-danger{
+	border-color: brown !important;
+}
+
+.navbar-brand:hover{
+	text-decoration: none;
+}
+
+.nav-link{
+	font-size: 15px;
+}
+
+.centrar{
+	text-align: $h1Center;
+}
+
+.views__background{
+	background-color: $viewsBg;
+}

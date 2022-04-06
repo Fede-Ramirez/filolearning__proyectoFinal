@@ -1,0 +1,42 @@
+footer {
+	background-color: $headerAndFooterBg;
+    .footer__sections{
+    	margin: 10px 0px;
+	    a{
+	    	.tipografiaLogo{
+	    		font-family: $logoFont;
+				font-style: italic;
+				font-weight: bold;
+				color: black;
+				.logo__nombre{
+                     color: crimson;
+                     font-family: $logoFont;
+				}
+	    	}
+	    	.logoEmailbootstrap{
+	            height: 32px;
+	            width: 32px;
+	            margin-top: 10px;
+            }
+	    }
+	    .redes__iconos{
+		        transform: $redesTransform;
+		        a{
+		        	.redes__facebook{
+                        padding: $redesPadding;  
+		            }
+		            .redes__instagram{
+                        padding: $redesPadding;
+		            }
+		            .redes__linkedin{
+                        padding: $redesPadding;
+		            }
+		        }
+        }
+        .copyright__texto{
+        	text-transform: capitalize;
+        	font-size: 13px;
+        }
+    }
+}
+

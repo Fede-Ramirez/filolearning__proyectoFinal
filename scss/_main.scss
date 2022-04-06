@@ -1,0 +1,346 @@
+// Estilos generales INDEX (CSS NATIVO)
+
+.contenedor__padre{
+	display: grid;
+	grid-template-areas: 
+    "header"
+    "main"
+    "footer";
+    grid-template-columns: 100%;
+    grid-template-rows: auto auto auto;
+}
+
+header{
+	grid-area: header;
+}
+
+main{
+	grid-area: main;
+}
+
+li{ 
+	margin: 10px;
+	padding: 0.5rem;
+	border-radius: 5px;
+}
+
+a{
+  color: blue;
+  text-decoration: none;
+}
+
+a:hover{
+	color: black;
+}
+
+.header__nav{
+	border-top: 4px solid brown;
+	border-bottom: 4px solid brown;
+	padding: 20px 20px 20px 0px;
+	margin-right: 30px;
+}
+
+.nav__item{
+	display: inline;
+}
+
+.nav__anchor{
+	color: lightslategrey;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+h1{
+   font-weight: bold;
+   font-size: 50px;
+   margin: 0px 20px 20px 20px;
+}
+
+.centrar{
+	text-align: center;
+}
+
+.mainTexto{
+	margin: 20px;
+	font-size: 18px;
+}
+
+h4{
+	font-weight: bold;
+	font-size: 17px;
+}
+
+.logo__filolearning{
+	grid-area: logo__filolearning;
+	display: flex;
+	flex-direction: column;
+}
+
+.tipografiaLogo{
+	font-family: "cormorant upright", Serif;
+	font-weight: bold;
+	font-size: 40px;
+	font-style: italic;
+	color: black;
+}
+
+.logo__anchor{
+	display: flex;
+	flex-direction: row;
+	align-items: flex-end;
+}
+
+.logo__nombre{
+	color:crimson;
+	font-family: "cormorant upright", Serif;
+	font-weight: bold;
+	font-size: 40px;
+	font-style: italic;
+}
+
+.main{
+	background-color: #f2f2f2;
+	display: grid;
+	grid-template-areas: 
+    "main__section1"
+    "main__section2"
+    "main__section3";
+    grid-template-columns: 100%;
+    grid-template-rows: auto auto auto;
+}
+
+.section1__h1{
+	text-align: center;
+}
+
+.main__section2{
+	grid-area: main__section2;
+	margin-bottom: 75px;
+}
+
+.section2__texto{
+	text-align: center;
+	font-size: 30px;
+	font-weight: bold;
+	margin: 100px 0px 100px 0px;
+}
+
+.section2__pregunta{
+	text-align: center;
+	font-family: "libre baskerville", serif;
+	font-weight: bold;
+	font-size: 25px;
+	margin: 0px 0px 50px 0px;
+}
+
+.economico{
+	grid-area: economico;
+}
+
+.seguimiento{
+	grid-area: seguimiento;
+}
+
+.flexibilidad{
+	grid-area: flexibilidad;
+}
+
+.adaptabilidad{
+	grid-area: adaptabilidad;
+}
+
+.contacto{
+	grid-area: contacto;
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.redes{
+	grid-area: redes;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.redes__iconos{
+	transform: scale(1.1,1.1);
+}
+
+.redes__facebook{
+	padding: 0px 15px 0px 15px;
+}
+
+.redes__instagram{
+	padding: 0px 15px 0px 15px;
+}
+
+.redes__linkedin{
+	padding: 0px 15px 0px 15px;
+}
+
+.mailLogonative{
+	padding: 15px 0px;
+	height: 32px;
+}
+
+.mailDireccion{
+	padding: 20px 0px;
+}
+
+// Estilos generales ACERCA DE MÍ
+
+main{
+	section{
+		div{
+			.main__imagen{
+				margin-bottom: 50px;
+			}
+			.edicionParrafos{
+				line-height: map-get($estilosParrafos, interlineado);
+				font-size: map-get($estilosParrafos, tFuente);
+				text-align: map-get($estilosParrafos, justificado);
+				margin: map-get($estilosParrafos, margenesHorizontales);
+			}
+			.edicionFrase{
+				text-align: center;
+	            font-size: 20px;
+	            font-weight: bold;
+			}
+		}
+		.oracionFinal{
+			border-color: black;
+	        border-style: solid;
+	        border-width: 2px 0px 2px 0px;
+	        background-image: $frasesGradient;
+		}
+	}
+	.parrafos{
+		margin-bottom: 30px;
+	}
+}
+
+// Estilos generales SERVICIOS
+
+main{
+	section{
+		div{
+			.edicionMapas{
+				border-color: black;
+	            border-style: solid;
+	            border-width: 2px;
+	            width: 100%;
+	            height: 150px;
+	            margin: 10px 0px;
+			}
+			.pagos__encabezado{
+				text-align: center;
+	            font-family: "libre baskerville", serif;
+	            font-size: 20px;
+	            font-weight: bold;
+	            margin: 75px 75px 0px 75px;            
+			}
+			div{
+				div{
+					.edicionEncabezados{
+						font-weight: bold;
+						text-align: center;
+					}
+				}
+			}
+		}
+	}
+	.iconos{
+		margin-bottom: 50px;
+	}
+}
+
+// Estilos generales ASIGNATURAS
+
+main{
+	section{
+		div{
+			.main__encabezados{
+                text-align: center;
+	            font-family: "libre baskerville", serif;
+	            font-size: 30px;
+	            font-weight: bold;
+	            margin: 50px 0px 50px 0px; 
+			}
+			.mainTexto{
+				margin-top: 50px;
+				font-size: 20px;
+				text-align: center;
+			}
+		}
+		.cardArea{
+			margin-bottom: 30px;
+			div{
+				.imagenesAsignaturas{
+					width: 100%;
+	                height: 185px;
+	                border-width: 2px;
+				}
+				div{
+					.nombreAsignaturas{
+						font-weight: bold;
+	                    font-family: "libre baskerville", serif;
+	                    text-align: center;
+	                    font-size: 15px;
+					}
+				}
+			}
+		}
+	}
+}
+
+// Estilos generales CONTACTO
+
+main{
+	section{
+		div{
+			.contacto__oracion{
+				margin-top: 50px;
+				font-size: 20px;
+				text-align: center;
+			}
+		}
+	}
+	form{
+		padding: 75px;
+		.formulario__bg{
+			background-color: beige;
+		}
+	    section{
+		   div{
+			   .form-label{
+				   font-size: 20px;
+	               font-weight: bold;
+	               color: black;  
+			   }
+			   .areaLabel{
+				   margin-top: 15px;
+			   }
+			   .btn-primary{
+				   width: 200px;
+				   height: 40px;
+				   text-align: center;
+				   font-weight: bold;
+				   color: black;
+				   border-radius: 20px;
+				   margin: 50px 0px; 
+			   }
+			   .boton--enviar{
+				   @extend .btn-primary;
+				   background-color: lightblue;
+			   }
+			   .boton--restablecer{
+				   @extend .btn-primary;
+				   background-color: lightcyan;
+			   }
+		   }
+	   }
+    }
+} 
